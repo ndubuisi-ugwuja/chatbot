@@ -32,7 +32,7 @@ No API keys or internet connection are required once the model is downloaded.
    \*Linux/macOS
 
    ```bash
-   Install Ollama
+   curl -fsSL https://ollama.ai/install.sh | sh
    ```
 
    \*Windows (WSL2 required)
