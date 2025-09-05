@@ -1,6 +1,6 @@
 # Ollama Local Chatbot
 
-This is a simple Python chatbot that runs **locally** using [Ollama](https://ollama.ai) and the **Gemma 2B** language model.  
+This is a simple Python chatbot that you can integrate into your projects. It runs **locally** using [Ollama](https://ollama.ai) and the **Gemma 2B** language model.  
 No API keys or internet connection are required once the model is downloaded.
 
 ---
@@ -18,7 +18,7 @@ No API keys or internet connection are required once the model is downloaded.
 
    ```bash
    git clone https://github.com/ndubuisi-ugwuja/chatbot.git
-   cd ollama-bot
+   cd bot
    ```
 
 2. ### Install Python dependencies
@@ -36,7 +36,7 @@ No API keys or internet connection are required once the model is downloaded.
    ```
 
    \*Windows (WSL2 required)
-   Follow the guide: (Ollama on Windows)[https://ollama.ai/download/windows?utm_source=chatgpt.com]
+   Follow the guide: [Ollama on Windows](https://ollama.ai/download/windows?utm_source=chatgpt.com)
 
 4. ### Pull the Gemma 2B model
 
@@ -44,11 +44,13 @@ No API keys or internet connection are required once the model is downloaded.
    ollama pull gemma:2b
    ```
 
-5. ### Run ollama server locally
-   \*Keep it running
-   ```bash
-   ollama serve
-   ```
+## Run ollama server locally
+
+\*Keep it running
+
+```bash
+ollama serve
+```
 
 ## 🚀 Run the chatbot
 
